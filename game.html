@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/game.css" rel="stylesheet">
+    <title>Tetris</title>
+</head>
+<body>
+<div class="popup" id="gameover">
+    <p class="gamefont"><strong>GAME OVER!</strong></p>
+    <p class="gamefont" id="result">Ваш результат: 100</p>
+    <p class="gamefont" id="leaderboard">Топ игроков:</p>
+    <table class="lboard" id="lbtable">
+        <tbody>
+        </tbody>
+    </table>
+    <input type="button" class="play" id="backbutton" onclick="window.location.href='./index.html';" value="На главную"  />
+</div>
+<main>
+    <canvas width="342" height="682" id="field"></canvas>
+    <aside>
+        <p class="gamefont" id="username"><strong>Имя пользователя</strong></p>
+        <p class="gamefont">Следующая фигура:</p>
+        <canvas width="206" height="138" id="next"></canvas>
+        <p class="gamefont" id="score">Счёт: 0</p>
+        <p class="gamefont" id="speed">Скорость: 0</p>
+    </aside>
+</main>
+
+<script src="game.js"></script>
+</body>
+</html>

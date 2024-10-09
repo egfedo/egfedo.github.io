@@ -1,0 +1,102 @@
+
+canvas {
+    border-style: solid;
+    border-color: #2e3134;
+    border-width: 2px;
+    image-rendering: pixelated;
+    /*image-rendering: crisp-edges;*/
+    margin-right: 3em;
+}
+
+body {
+    background-image: url("../background.jpg");
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+main {
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    /*filter: blur(8px);*/
+}
+
+aside {
+    background-color: white;
+    border-style: solid;
+    border-color: #2e3134;
+    border-width: 2px;
+    border-radius: 1.5em;
+    width: 20em;
+    height: fit-content;
+    align-content: center;
+    justify-content: center;
+    /*padding-left: 2em;*/
+}
+
+#next {
+    margin: auto;
+    display: block;
+    image-rendering: pixelated;
+}
+
+p.gamefont {
+    font-family: Verdana, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+strong {
+    font-weight: bold;
+}
+
+div.popup {
+    position: fixed;
+    width: 25em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    top: auto;
+    left: calc(50% - 12.5em);
+    background-color: white;
+    border-style: solid;
+    border-color: #2e3134;
+    border-width: 2px;
+    border-radius: 1.5em;
+    align-content: center;
+    justify-content: center;
+    z-index: 1;
+    display: grid;
+    visibility: hidden;
+}
+
+td.num {
+    text-align: right;
+}
+
+td {
+    padding: 0.5em;
+}
+
+table.lboard {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, sans-serif;
+}
+
+input.play {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+    font-family: Verdana, sans-serif;
+    font-size: large;
+}
