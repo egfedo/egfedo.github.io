@@ -1,5 +1,4 @@
 var _a;
-var a = 0;
 var nameField = document.getElementById("name");
 function click() {
     if (nameField.value.length != 0) {

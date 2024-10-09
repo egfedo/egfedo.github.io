@@ -260,9 +260,9 @@ function placeFigure(matrixX, matrixY, mat) {
 // GAME LOGIC
 var lastChosen = "";
 function getRandomFigure() {
-    var chosen = tetraminoKeys[randRange(0, tetraminoKeys.length - 1)];
+    var chosen = tetraminoKeys[randRange(0, tetraminoKeys.length)];
     if (chosen === lastChosen) {
-        chosen = tetraminoKeys[randRange(0, tetraminoKeys.length - 1)];
+        chosen = tetraminoKeys[randRange(0, tetraminoKeys.length)];
     }
     lastChosen = chosen;
     return tetraminoes[chosen];
