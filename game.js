@@ -46,14 +46,9 @@ var tetraminoes = {
         [7, 7, 0],
         [0, 7, 7],
         [0, 0, 0]
-    ],
-    'HUI': [
-        [0, 1, 0],
-        [0, 1, 0],
-        [1, 1, 1],
     ]
 };
-var tetraminoKeys = ['I', 'J', 'L', 'O', 'S', 'T', 'Z', 'HUI'];
+var tetraminoKeys = ['I', 'J', 'L', 'O', 'S', 'T', 'Z'];
 var colours = {
     1: {
         first: "#18e5e6",
